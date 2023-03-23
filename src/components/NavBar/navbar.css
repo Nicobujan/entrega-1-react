@@ -1,0 +1,30 @@
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2rem;
+    padding-block: .6rem;
+    margin: 0;
+    background-color: #27292b;
+}
+
+.productos-header{
+    text-decoration: none;
+    color: #22eff7;
+    font-size: larger;
+}
+.nav-menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+ .pageName{
+    font-size:25px;
+    color: #dfe307;
+    
+    border-radius: 20px;
+    padding: 5px;
+ }
