@@ -1,9 +1,11 @@
-import'./itemlistcontainer.css';
+import './itemlistcontainer.css';
+import React from 'react';
 
-function ItemListContainer (){
-    return(
-<h2>Bienvenidos</h2>
-);
+function ItemListContainer (props){
+    return (
+        
+        <h2>Hola! {props.greeting} </h2>
+    );
 }
 
 export default ItemListContainer;
